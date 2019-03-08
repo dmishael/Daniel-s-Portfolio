@@ -64,7 +64,7 @@ class LandingPage extends Component {
             <div>
                 <Body>
                     <H1> Daniel Mishael </H1>
-                    <H3> Git to know me </H3>
+                    <H3> Git to know me. </H3>
                     <Parent>
                         <LI><Atag href="/about"> About </Atag></LI>
                         <LI><Atag href="/portfolio"> Portfolio </Atag></LI>
