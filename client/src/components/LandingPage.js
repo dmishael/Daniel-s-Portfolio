@@ -3,60 +3,78 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 
-const HomeLinks = styled.span`
-position: absolute;
-top: 40%;
-margin-left: 45%;
-margin-right: 20%;
-font-weight: bold;
-
+const Body = styled.div`
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    background: url('Road_Trip.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
 `
 
-const Button = styled.a`
-text-decoration: none;
-background: #ffec99;
-text-align: "center";
-display: "inline";
-color: black;
-font-size: 1em;
-margin: 3%;
-padding: 0.25em 1em;
-border: .8px solid black;
-border-radius: 20px;
-left-align: 30%;
-
+const H1 = styled.div`
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    font-family: 'sans simplifica','times new roman';
+    font-weight: 100;
+    font-size: 65px;
+    font-stretch: expanded;
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
 `
 
-
-const Intro = styled.div`
-position: absolute;
-top: 20%;
-margin-left: 20%;
-margin-right: 15%;
-font-weight: bold;
-font-size: 16px;
+const H3 = styled.div`
+    grid-row: 3;
+    grid-column: 2;
+    margin: 0 auto;
+    font-weight: 300;
+    font-family: sans-serif;
 `
-const Content = styled.div`
-font-family: Courier New;
+
+const Parent = styled.div`
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    grid-row: 9;
+    grid-column: 2;
+    text-decoration: none;
+    list-style-type: none;
+`
+
+const Atag = styled.a`
+    margin: 40px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 20px;
+`
+
+const LI = styled.div`
+    align-content: space-between;
 `
 
 class LandingPage extends Component {
     render() {
         return (
             <div>
+                <Body>
+                    <H1> Daniel Mishael </H1>
+                    <H3> Git to know me </H3>
+                    <Parent>
+                        <LI><Atag href="/about"> About </Atag></LI>
+                        <LI><Atag href="/portfolio"> Portfolio </Atag></LI>
+                        <LI><Atag href="https://github.com/dmishael"> Github </Atag></LI>
+                        <LI><Atag href="https://www.linkedin.com/in/daniel-mishael-8b093b53"> LinkedIn </Atag></LI>
+                        <LI><Atag href="https://twitter.com/dmishael91"> Twitter </Atag></LI>
+                    </Parent>
 
-                <Content>
-                    <HomeLinks>
+                </Body>
 
-                        <Link to="/users"><Button>Gardens</Button></Link>
-    
-
-                    </HomeLinks>
-                    <Intro>
-                        <p>“The greatest threat to our planet is the belief that someone else will save it.”
-                        – Robert Swan</p>
-                    </Intro>
-                </Content>
             </div>
         );
     }

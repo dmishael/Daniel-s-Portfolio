@@ -14,4 +14,4 @@ ERD's and Wireframs:
 
 
 ![ERD](/ERD.jpg)
-![Wireframe](/Wireframe.jpg)
+![Wireframe](/Wi.jpg)
