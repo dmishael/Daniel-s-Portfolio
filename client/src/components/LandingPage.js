@@ -66,8 +66,8 @@ class LandingPage extends Component {
                     <H1> Daniel Mishael </H1>
                     <H3> Git to know me. </H3>
                     <Parent>
-                        <LI><Atag href="/about"> About </Atag></LI>
-                        <LI><Atag href="/portfolio"> Portfolio </Atag></LI>
+                        <LI><Link to="/about"> About </Link></LI>
+                        <LI><Link Link to="/portfolio"> Portfolio </Link></LI>
                         <LI><Atag href="https://github.com/dmishael"> Github </Atag></LI>
                         <LI><Atag href="https://www.linkedin.com/in/daniel-mishael-8b093b53"> LinkedIn </Atag></LI>
                         <LI><Atag href="https://twitter.com/dmishael91"> Twitter </Atag></LI>
