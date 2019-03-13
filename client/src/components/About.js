@@ -11,12 +11,12 @@ padding-top: 14%;
 padding-bottom: 10%;
 margin-left: 15%;
 `
-const Title = styled.h2`
-    float: right;
-    padding-top: 6%;
-    margin-right: 47%;
-    font-family: 'sans simplifica','times new roman';
-    `
+// const Title = styled.h2`
+//     float: right;
+//     padding-top: 6%;
+//     margin-right: 47%;
+//     font-family: 'sans simplifica','times new roman';
+//     `
 
 const IMG = styled.img`
     display: block;
