@@ -7,15 +7,18 @@ const Body = styled.div`
     grid-template-columns: 1fr 6fr 1fr;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'sans simplifica','times new roman';
 `
 const Span = styled.div`
     grid-column: 2; 
 `
 const H3 = styled.h6`
     font-weight: bold;
+    font-family: 'sans simplifica','times new roman';
 `
 const CardContent = styled.div`
     background-color: white;
+    font-family: 'sans simplifica','times new roman';
 `
 
 
