@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import axios from 'axios'
-import { Link } from 'react-router-dom';
+// import axios from 'axios'
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Navbar from "../components/Nav";
 
 const Body = styled.body`
 display: block;
 float: left;
-font-family: 'sans simplifica','times new roman';
+font-family: 'ubuntu','times new roman';
 padding-top: 14%;
 padding-bottom: 10%;
 margin-left: 15%;
@@ -109,6 +110,7 @@ class Users extends Component {
         return (
 
             <div>
+                <Navbar/>
                 {
                     <div>
                         {/* <Title>Who Am I?</Title> */}

@@ -17,7 +17,7 @@ const H1 = styled.div`
     grid-row: 2;
     grid-column: 2;
     text-align: center;
-    font-family: 'sans simplifica','times new roman';
+    font-family: 'ubuntu','times new roman';
     font-weight: 100;
     font-size: 65px;
     font-stretch: expanded;
@@ -26,13 +26,14 @@ const H1 = styled.div`
     border-color: black;
 `
 
-const H3 = styled.div`
-    grid-row: 3;
-    grid-column: 2;
-    margin: 0 auto;
-    font-weight: 300;
-    font-family: sans-serif;
-`
+const H3 = styled.h4`
+  margin-top: 4%;
+  grid-row: 4;
+  grid-column: 2;
+  margin: 0 auto;
+  font-weight: 300;
+  font-family: ubuntu;
+`;
 
 const Parent = styled.div`
     display: flex;
@@ -50,7 +51,7 @@ const Atag = styled.a`
     justify-content: space-between;
     color: black;
     font-weight: 200;
-    font-family: sans-serif;
+    font-family: ubuntu;
     font-size: 20px;
 `
 
