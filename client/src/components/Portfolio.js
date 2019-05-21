@@ -42,7 +42,7 @@ class Portfolio extends Component {
         return (
           <div>
             <Navbar/>
-            <Header>Work Experience</Header>
+            <Header>Professional Work</Header>
             <Body>
               <Span class="divider">
                 <div class="row">
@@ -76,7 +76,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
 
-                <Header>General Assembly Projects</Header>
+                <Header>Personal Projects</Header>
                 <div class="row">
                   <div class="card">
                     <div class="card-image">
