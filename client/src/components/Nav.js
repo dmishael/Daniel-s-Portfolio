@@ -25,7 +25,7 @@ const Atag = styled.a`
   color: black;
   font-weight: 200;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 2em;
 `;
 
 const LI = styled.div`
@@ -36,7 +36,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar transparent pb-4">
+        <nav class="navbar transparent">
           {/* <Home>
                 <LI>
                   <Link to="/about">
@@ -51,30 +51,6 @@ class Navbar extends Component {
                 {" "}
                 <Atag>Home </Atag>
               </Link>
-            </LI>
-            <LI>
-              <Link to="/about">
-                {" "}
-                <Atag>About </Atag>
-              </Link>
-            </LI>
-            <LI>
-              <Link to="/portfolio">
-                {" "}
-                <Atag>Portfolio </Atag>
-              </Link>
-            </LI>
-            <LI>
-              <Atag href="https://github.com/dmishael"> Github </Atag>
-            </LI>
-            <LI>
-              <Atag href="https://www.linkedin.com/in/daniel-mishael-8b093b53">
-                {" "}
-                LinkedIn{" "}
-              </Atag>
-            </LI>
-            <LI>
-              <Atag href="https://twitter.com/dmishael91"> Twitter </Atag>
             </LI>
           </Parent>
         </nav>

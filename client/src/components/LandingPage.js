@@ -3,15 +3,13 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 
-const Body = styled.div`
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 3fr 1fr;
-    background: url('Road_Trip.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    grid-column: 2;
-`
+const Body = styled.span`
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-column: 2;
+  height: 100vh;
+`;
 
 const H1 = styled.div`
     grid-row: 2;
@@ -19,11 +17,9 @@ const H1 = styled.div`
     text-align: center;
     font-family: 'ubuntu','times new roman';
     font-weight: 100;
-    font-size: 65px;
+    font-size: 7em ;
     font-stretch: expanded;
-    border-style: double;
-    border-width: 3px;
-    border-color: black;
+    padding-top: 10%;
 `
 
 const H3 = styled.h4`
@@ -31,7 +27,7 @@ const H3 = styled.h4`
   grid-row: 4;
   grid-column: 2;
   margin: 0 auto;
-  font-weight: 300;
+  font-weight: 100;
   font-family: ubuntu;
 `;
 
@@ -39,7 +35,7 @@ const Parent = styled.div`
     display: flex;
     justify-content: center;
     align-content: space-between;
-    grid-row: 9;
+    grid-row: 6;
     grid-column: 2;
     text-decoration: none;
     list-style-type: none;
@@ -52,7 +48,7 @@ const Atag = styled.a`
     color: black;
     font-weight: 200;
     font-family: ubuntu;
-    font-size: 20px;
+    font-size: 2.5em;
 `
 
 const LI = styled.div`

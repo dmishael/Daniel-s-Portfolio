@@ -8,9 +8,10 @@ const Body = styled.body`
 display: block;
 float: left;
 font-family: 'ubuntu','times new roman';
-padding-top: 14%;
+margin-top: 10%;
 padding-bottom: 10%;
 margin-left: 15%;
+margin-right:10%;
 `
 // const Title = styled.h2`
 //     float: right;
@@ -20,13 +21,14 @@ margin-left: 15%;
 //     `
 
 const IMG = styled.img`
-    display: block;
-    float: right;
-    width: 27%;
-    margin-left: 5%;
-    border-radius: 20px;
-    margin-right: 15%;
-`
+  display: block;
+  float: right;
+  width: 20%;
+  margin-left: 12%;
+  margin-top: 4%;
+  border-radius: 20px;
+  margin-right: 10%;
+`;
 
 
 // const Button = styled.a`
@@ -108,28 +110,31 @@ class Users extends Component {
     render() {
 
         return (
+          <div>
+            {
+              <div>
+                <Navbar />
+                {/* <Title>Who Am I?</Title> */}
 
-            <div>
-                <Navbar/>
-                {
-                    <div>
-                        {/* <Title>Who Am I?</Title> */}
-                        <Body>
-
-                            <IMG src="GA_Profile.jpg" alt="Profile Shot" />
-                            <h4>Who Am I?</h4>
-                            I am an intellectually curious full stack web developer with a passion for bringing diverse perspectives
-                            together to solve systemic problems. With over 3 years of professional financial modeling experience I have
-                            developed a deep understanding of the art and science of piecing algorithms together to tell a story. From capturing
-                            live music through a camera lens to creating detailed and dynamic financial models for multi-million dollar businesses,
-                            I have learned that the best solutions often come when fusing both the left and right sides of the brain.
-                        </Body>
-                    </div>
-                }
-
-
-            </div>
-        )
+                <Body>
+                  <IMG src="GA_Profile.jpg" alt="Profile Shot" />
+                  <h4>Who Am I?</h4>I am an intellectually curious full
+                  stack web developer with a passion for bringing
+                  diverse perspectives together to solve systemic
+                  problems. With over 3 years of professional financial
+                  modeling experience I have developed a deep
+                  understanding of the art and science of piecing
+                  algorithms together to tell a story. From capturing
+                  live music through a camera lens to creating detailed
+                  and dynamic financial models for multi-million dollar
+                  businesses, I have learned that the best solutions
+                  often come when fusing both the left and right sides
+                  of the brain.
+                </Body>
+              </div>
+            }
+          </div>
+        );
     }
 }
 
