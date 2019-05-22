@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 
-const Body = styled.span`
+const Body = styled.div`
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 3fr 1fr;
   grid-column: 2;
-  height: 100vw;
 `;
 
 const H1 = styled.div`
@@ -42,7 +43,7 @@ const Parent = styled.div`
 `
 
 const Atag = styled.a`
-    margin: 40px;
+    margin: 1em;
     text-decoration: none;
     justify-content: space-between;
     color: black;
