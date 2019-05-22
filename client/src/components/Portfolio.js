@@ -23,15 +23,26 @@ const CardContent = styled.div`
     background-color: white;
     font-family: 'sans simplifica','times new roman';
 `
-const Header = styled.h1`
-  font-weight: light;
+const CardTitle = styled.h4`
+  font-weight: 100;
+  font-family: "sans simplifica", "times new roman";
+  color: white;
+  text-align: center;
+  margin: 5%;
+`;
+const Header = styled.h3`
+  font-weight: 400;
   font-family: "ubuntu", "times new roman";
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   text-align: center;
+  color: black;
 `
-
-
+const A = styled.a `
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem
+`
 
 
 
@@ -39,20 +50,20 @@ class Portfolio extends Component {
     render() {
         return (
           <div>
-            <Navbar/>
+            <Navbar />
             <Header>Professional Work</Header>
             <Body>
               <Span class="divider">
                 <div class="row">
+                  <CardTitle>Betta Innovations</CardTitle>
                   <div class="card">
                     <div class="card-image">
                       <img src="../BettaScreenshot.png" />
-                      <span class="card-title">Betta Innovations</span>
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <a href="http://Bettainnovations-website.s3-website-us-east-1.amazonaws.com">
-                            site
-                          </a>
+                          <A href="http://Bettainnovations-website.s3-website-us-east-1.amazonaws.com">
+                            view
+                          </A>
                         </i>
                       </a>
                     </div>
@@ -76,15 +87,16 @@ class Portfolio extends Component {
 
                 <Header>Personal Projects</Header>
                 <div class="row">
+                  <CardTitle>ComPost</CardTitle>
                   <div class="card">
                     <div class="card-image">
                       <img src="../ComPost-Screenshot.JPEG" />
-                      <span class="card-title">ComPost</span>
+
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <a href="https://vast-castle-70484.herokuapp.com/">
-                            site
-                          </a>
+                          <A href="https://vast-castle-70484.herokuapp.com/">
+                            view
+                          </A>
                         </i>
                       </a>
                     </div>
@@ -108,15 +120,15 @@ class Portfolio extends Component {
                 </div>
 
                 <div class="row">
+                  <CardTitle>RuffHouse</CardTitle>
                   <div class="card">
                     <div class="card-image">
                       <img src="../RuffHouse-IMG.jpg" />
-                      <span class="card-title">RuffHouse</span>
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <a href="https://lit-woodland-81366.herokuapp.com/">
-                            site
-                          </a>
+                          <A href="https://lit-woodland-81366.herokuapp.com/">
+                            view
+                          </A>
                         </i>
                       </a>
                     </div>
@@ -145,15 +157,15 @@ class Portfolio extends Component {
                 </div>
 
                 <div class="row">
+                  <CardTitle>DeadMan</CardTitle>
                   <div class="card">
                     <div class="card-image">
                       <img src="../DeadMan-IMG.jpg" />
-                      <span class="card-title">DeadMan</span>
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <a href="https://vigilant-bohr-e6da08.netlify.com/">
-                            site
-                          </a>
+                          <A href="https://vigilant-bohr-e6da08.netlify.com/">
+                            view
+                          </A>
                         </i>
                       </a>
                     </div>

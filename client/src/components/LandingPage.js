@@ -3,53 +3,55 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 
+const Wrapper = styled.div`
+    padding-left: 1px;
+    padding-right: 1px;
+`
 const Body = styled.div`
-  width: 100vw;
-  height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-column: 2;
+  grid-template-rows: 1fr 3fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+  grid-template-column: 1fr;
+  height: 100vh;
+  
 `;
 
 const H1 = styled.div`
     grid-row: 2;
-    grid-column: 2;
     text-align: center;
+    align-content: center;
     font-family: 'ubuntu','times new roman';
     font-weight: 100;
-    font-size: 7em ;
-    font-stretch: expanded;
-    padding-top: 10%;
+    font-size: 6.5rem;
+    padding-top: 3%;
 `
 
-const H3 = styled.h4`
-  margin-top: 4%;
-  grid-row: 4;
-  grid-column: 2;
+const H3 = styled.div`
+  grid-row: 3;
+  padding-top: 5%;
   margin: 0 auto;
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 2.5rem;
   font-family: ubuntu;
 `;
 
 const Parent = styled.div`
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    grid-row: 6;
-    grid-column: 2;
-    text-decoration: none;
-    list-style-type: none;
-`
+  grid-row: 6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  text-decoration: none;
+  list-style-type: none;
+`;
 
 const Atag = styled.a`
-    margin: 1em;
+    margin: 2rem;
     text-decoration: none;
     justify-content: space-between;
     color: black;
     font-weight: 200;
     font-family: ubuntu;
-    font-size: 2.5em;
+    font-size: 1.5rem;
 `
 
 const LI = styled.div`
@@ -59,7 +61,7 @@ const LI = styled.div`
 class LandingPage extends Component {
     render() {
         return (
-            <div>
+            <Wrapper>
                 <Body>
                     <H1> Daniel Mishael </H1>
                     <H3> Git to know me. </H3>
@@ -73,7 +75,7 @@ class LandingPage extends Component {
 
                 </Body>
 
-            </div>
+            </Wrapper>
         );
     }
 }
