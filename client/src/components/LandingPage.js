@@ -8,7 +8,7 @@ const Body = styled.span`
   grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 3fr 1fr;
   grid-column: 2;
-  height: 100vh;
+  height: 100vw;
 `;
 
 const H1 = styled.div`

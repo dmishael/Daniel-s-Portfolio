@@ -15,8 +15,6 @@ const Span = styled.div`
     grid-column: 2; 
 `
 
-
-
 const H3 = styled.h6`
     font-weight: bold;
     font-family: 'sans simplifica','times new roman';
