@@ -61,7 +61,7 @@ class Portfolio extends Component {
                       <img src="../BettaScreenshot.png" />
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <A href="http://Bettainnovations-website.s3-website-us-east-1.amazonaws.com">
+                          <A href="https://www.bettainnovations.com/">
                             view
                           </A>
                         </i>

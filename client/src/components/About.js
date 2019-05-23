@@ -30,6 +30,10 @@ const IMG = styled.img`
   margin-right: 10%;
 `;
 
+const P = styled.p`
+  font-weight: 200;
+`;
+
 
 // const Button = styled.a`
 // text-decoration: none;
@@ -118,18 +122,21 @@ class Users extends Component {
 
                 <Body>
                   <IMG src="GA_Profile.jpg" alt="Profile Shot" />
-                  <h4>Who Am I?</h4>I am an intellectually curious full
-                  stack web developer with a passion for bringing
-                  diverse perspectives together to solve systemic
-                  problems. With over 3 years of professional financial
-                  modeling experience I have developed a deep
-                  understanding of the art and science of piecing
-                  algorithms together to tell a story. From capturing
-                  live music through a camera lens to creating detailed
-                  and dynamic financial models for multi-million dollar
-                  businesses, I have learned that the best solutions
-                  often come when fusing both the left and right sides
-                  of the brain.
+                  <h4>Who Am I?</h4>
+                  <P>
+                    I am an intellectually curious full stack web
+                    developer with a passion for bringing diverse
+                    perspectives together to solve systemic problems.
+                    With over 3 years of professional financial modeling
+                    experience I have developed a deep understanding of
+                    the art and science of piecing algorithms together
+                    to tell a story. From capturing live music through a
+                    camera lens to creating detailed and dynamic
+                    financial models for multi-million dollar
+                    businesses, I have learned that the best solutions
+                    often come when fusing both the left and right sides
+                    of the brain.
+                  </P>
                 </Body>
               </div>
             }
