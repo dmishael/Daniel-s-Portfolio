@@ -31,7 +31,8 @@ const IMG = styled.img`
 `;
 
 const P = styled.p`
-  font-weight: 200;
+  font-weight: 500;
+  font-size: 1.12rem;
 `;
 
 
