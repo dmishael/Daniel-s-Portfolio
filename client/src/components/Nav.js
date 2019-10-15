@@ -24,7 +24,7 @@ const Atag = styled.a`
   justify-content: space-between;
   color: black;
   font-weight: 200;
-  font-family: sans-serif;
+  font-family: Indie Flower;
   font-size: 2em;
 `;
 

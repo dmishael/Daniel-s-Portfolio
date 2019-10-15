@@ -19,7 +19,7 @@ const H1 = styled.div`
     grid-row: 2;
     text-align: center;
     align-content: center;
-    font-family: 'ubuntu','times new roman';
+    font-family: 'Indie Flower','times new roman';
     font-weight: 100;
     font-size: 6.5rem;
     padding-top: 3%;
@@ -31,7 +31,7 @@ const H3 = styled.div`
   margin: 0 auto;
   font-weight: 300;
   font-size: 2.5rem;
-  font-family: ubuntu;
+  font-family: Indie Flower;
 `;
 
 const Parent = styled.div`
@@ -45,14 +45,14 @@ const Parent = styled.div`
 `;
 
 const Atag = styled.a`
-    margin: 2rem;
-    text-decoration: none;
-    justify-content: space-between;
-    color: black;
-    font-weight: 200;
-    font-family: ubuntu;
-    font-size: 1.5rem;
-`
+  margin: 2rem;
+  text-decoration: none;
+  justify-content: space-between;
+  color: black;
+  font-weight: 200;
+  font-family: Indie Flower;
+  font-size: 1.5rem;
+`;
 
 const LI = styled.div`
     align-content: space-between;

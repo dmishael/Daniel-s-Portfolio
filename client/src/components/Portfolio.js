@@ -5,39 +5,39 @@ import Navbar from "../components/Nav";
 
 
 const Body = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'sans simplifica','times new roman';
-`
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Indie Flower", "times new roman";
+`;
 const Span = styled.div`
     grid-column: 2; 
 `
 
 const H3 = styled.h6`
-    font-weight: bold;
-    font-family: 'sans simplifica','times new roman';
-`
+  font-weight: bold;
+  font-family: Indie Flower, "times new roman";
+`;
 const CardContent = styled.div`
-    background-color: white;
-    font-family: 'sans simplifica','times new roman';
-`
+  background-color: white;
+  font-family: Indie Flower, "times new roman";
+`;
 const CardTitle = styled.h4`
   font-weight: 100;
-  font-family: "sans simplifica", "times new roman";
+  font-family: 'Indie Flower', "times new roman";
   color: white;
   text-align: center;
   margin: 5%;
 `;
 const Header = styled.h3`
   font-weight: 400;
-  font-family: "ubuntu", "times new roman";
+  font-family: "Indie Flower", "times new roman";
   margin-top: 5%;
   margin-bottom: 1%;
   text-align: center;
   color: black;
-`
+`;
 const A = styled.a `
   text-decoration: none;
   color: white;

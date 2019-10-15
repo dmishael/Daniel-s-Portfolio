@@ -5,14 +5,14 @@ import styled from 'styled-components';
 import Navbar from "../components/Nav";
 
 const Body = styled.body`
-display: block;
-float: left;
-font-family: 'ubuntu','times new roman';
-margin-top: 10%;
-padding-bottom: 10%;
-margin-left: 15%;
-margin-right:10%;
-`
+  display: block;
+  float: left;
+  font-family: "Indie Flower", "times new roman";
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 10%;
+`;
 // const Title = styled.h2`
 //     float: right;
 //     padding-top: 6%;
