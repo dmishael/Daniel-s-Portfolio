@@ -61,9 +61,7 @@ class Portfolio extends Component {
                       <img src="../BettaScreenshot.png" />
                       <a class="btn-floating halfway-fab waves-effect waves-light red">
                         <i class="material-icons">
-                          <A href="https://www.bettainnovations.com/">
-                            view
-                          </A>
+                          <A href="https://www.bettainnovations.com/">view</A>
                         </i>
                       </a>
                     </div>
@@ -71,14 +69,14 @@ class Portfolio extends Component {
                       <CardContent>
                         <H3>Technologies Used:</H3>
                         <ol>
-                          HTML, CSS, JavaScript, VueJS, Google Maps and
-                          Hubspot APIs, and Adobe XD.
+                          HTML, CSS, JavaScript, VueJS, Google Maps and Hubspot
+                          APIs, and Adobe XD.
                         </ol>
                         <H3>Inspiration:</H3>
                         <ol>
-                          Inspired by an phenomenal UX / UI team, and in
-                          tandem with my co-developer, we created Betta
-                          Innovations first website!
+                          Inspired by a phenomenal UX / UI team, and in tandem
+                          with my co-developer, we created Betta Innovations
+                          first website!
                         </ol>
                       </CardContent>
                     </div>
@@ -103,16 +101,19 @@ class Portfolio extends Component {
                     <div class="card-content">
                       <CardContent>
                         <H3>Technologies Used:</H3>
+                        <ol>MERN (MongoDB, Express.JS, React, Node.JS)</ol>
+                        <H3>Source Code:</H3>
                         <ol>
-                          MERN (MongoDB, Express.JS, React, Node.JS)
+                          <a href="https://github.com/dmishael/comPost-MERN">
+                            Source Code on Github
+                          </a>
                         </ol>
                         <H3>Inspiration:</H3>
                         <ol>
-                          Being a passionate environmentalist I wanted a
-                          more cost effective and community oriented
-                          solution to bridge the gap between those
-                          interested in composting and their local urban
-                          gardens.
+                          Being a passionate environmentalist I wanted a more
+                          cost effective and community oriented solution to
+                          bridge the gap between those interested in composting
+                          and their local urban gardens.
                         </ol>
                       </CardContent>
                     </div>
@@ -135,21 +136,23 @@ class Portfolio extends Component {
                     <div class="card-content">
                       <CardContent>
                         <H3>Technologies Used:</H3>
+                        <ol>MEHN (MongoDB, Express.JS, Handlebars, Node.JS)</ol>
+                        <H3>Source Code:</H3>
                         <ol>
-                          MEHN (MongoDB, Express.JS, Handlebars,
-                          Node.JS)
+                          <a href="https://github.com/dmishael/dogShare-MEHN">
+                            Source Code on Github
+                          </a>
                         </ol>
                         <H3>Inspiration:</H3>
                         <ol>
-                          As the owner of a rescue dog, I've learned
-                          first hand that owning a dog can be expensive.
-                          In an effort to reduce the total cost of dog
-                          ownership, I developed RuffHouse to create
-                          geographicaly organized dog owner communities
-                          which facilitate a system in which dog owners
-                          can take turns boarding eachothers dogs while
-                          their fellow neigbor is on vacation or just
-                          needs a break!
+                          As the owner of a rescue dog, I've learned first hand
+                          that owning a dog can be expensive. In an effort to
+                          reduce the total cost of dog ownership, I developed
+                          RuffHouse to create geographicaly organized dog owner
+                          communities which facilitate a system in which dog
+                          owners can take turns boarding eachothers dogs while
+                          their fellow neigbor is on vacation or just needs a
+                          break!
                         </ol>
                       </CardContent>
                     </div>
@@ -173,13 +176,19 @@ class Portfolio extends Component {
                       <CardContent>
                         <H3>Technologies Used:</H3>
                         <ol>HTML, CSS and JQuery</ol>
+                        <H3>Source Code:</H3>
+                        <ol>
+                          <a href="https://github.com/dmishael/GratefulDead-Hangman">
+                            Source Code on Github
+                          </a>
+                        </ol>
                         <H3>Inspiration:</H3>
                         <ol>
-                          As a Deadhead I thought it would be fun to
-                          incorporate the Grateful Dead theme into my
-                          Hangman game. Given the overlap between
-                          Hangman and the band's constant allusions to
-                          death, I think Jerry Garcia would be proud.
+                          As a Deadhead I thought it would be fun to incorporate
+                          the Grateful Dead theme into my Hangman game. Given
+                          the overlap between Hangman and the band's constant
+                          allusions to death, I think Jerry Garcia would be
+                          proud.
                         </ol>
                       </CardContent>
                     </div>
